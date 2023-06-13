@@ -1,0 +1,83 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+/* html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+} */
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* STYLES */
+/* Write your CSS below */
+
+.body-text {
+  font-family: "Helvetica", sans-serif;
+  text-align: left;
+  font-weight: 100;
+  
+}
+
+#landing {
+  height: 80vh;
+  background-image: url('../images/apple-pie.jpg');
+  color: white;
+  text-align: center;
+  padding: 100px 100px;
+  font-size: 4rem;
+
+}
+
+.description {
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 1.5rem;
+
+
+}
+
+.ingredients {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 35px;
+}
+
+.directions {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+li{
+  font-size: 1.5rem;
+}
+
+.cooking-info{
+
+  margin-top: 35px;
+  width: 400px;
+  height: 65px;
+  margin-bottom: 10px;
+  display: block;
+  margin: auto;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+ul {
+  list-style: '- ';
+}
